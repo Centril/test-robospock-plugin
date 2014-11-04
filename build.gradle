@@ -15,17 +15,11 @@
  */
 
 buildscript {
-	repositories {
-		jcenter()
-	}
-	dependencies {
+    repositories {
+        jcenter()
+    }
+    dependencies {
 		classpath 'com.android.tools.build:gradle:0.14.+'
-		classpath 'se.centril.robospock:gradle-plugin-robospock:0.2.+'
-	}
-}
-
-allprojects {
-	repositories {
-		jcenter()
-	}
+        classpath 'se.centril.robospock:gradle-plugin-robospock:0.2.1'
+    }
 }
