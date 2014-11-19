@@ -19,10 +19,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-    	classpath fileTree(
-    				dir:  new File('D:/Programming/gradle-plugin-robospock/plugin/build/libs'),
-    				includes: ['gradle-plugin-robospock-0.3.1.jar'] )
-        //classpath 'se.centril.robospock:gradle-plugin-robospock:0.3.+'
+        classpath 'se.centril.robospock:gradle-plugin-robospock:0.3.+'
 		classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.+'
     }
 }
